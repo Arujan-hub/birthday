@@ -11,7 +11,7 @@ fetch('birthdays.json')
         const upcomingBirthdayList = document.getElementById('upcoming-birthday-list');
 
         
-        const upcomingBirthdays = data.upcomingBirthdays.slice(0, 2);  // Get only the first 2 birthdays
+        const upcomingBirthdays = data.upcomingBirthdays.slice(0, 2);  
 
         upcomingBirthdays.forEach(upcomingBirthday => {
             const upcomingItem = document.createElement('div');
